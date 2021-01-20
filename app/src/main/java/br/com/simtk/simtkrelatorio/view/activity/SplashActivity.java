@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import br.com.simtk.simtkrelatorio.R;
 
-public class Splash extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
 
     int tempoEspera = 1000*3;
@@ -25,7 +25,7 @@ public class Splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent  = new Intent(Splash.this, MainActivity.class);
+                Intent intent  = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
