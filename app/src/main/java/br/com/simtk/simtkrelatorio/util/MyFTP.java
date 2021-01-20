@@ -39,8 +39,7 @@ public class MyFTP extends Thread {
             FTPClientConfig config = new FTPClientConfig();
             config.getServerTimeZoneId();
             ftpClient.configure(config);
-            Log.d("antes de tentar conexão", "XXXXXXXXXXXXXXXXX");
-            ftpClient.connect("51.222.9.87", 21);
+            ftpClient.connect("x.xxx.xxx.xxx", 21);
             int teste = ftpClient.getReplyCode();
             if (!FTPReply.isPositiveCompletion(teste)) {
                 ftpClient.disconnect();
