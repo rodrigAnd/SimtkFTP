@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/primaryLightColor"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:src="@drawable/reposicao"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+
+            android:textColor="@color/white"
+            android:text="@string/reposicaotodos"/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cb_min"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/considera_minimo" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/cb_sel_vend"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/seleciona_vendedor"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/numVendedor"
+                android:textSize="15sp"
+                android:id="@+id/ed_num_vend"
+                android:inputType="number"
+                android:visibility="gone"/>
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/cb_cod"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cod_barra_sub"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textSize="20sp"
+
+            android:id="@+id/rg_geral"
+            android:visibility="invisible">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cod_barra"
+                android:textSize="20sp"
+                android:id="@+id/rb_cod_barra"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_cod"
+                android:textSize="20sp"
+                android:id="@+id/rb_sub_cod"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/btn_gerar_relatorio"
+        android:text="@string/gerar_relatorio"
+        style="?attr/buttonBarButtonStyle"/>
+</LinearLayout>
+</ScrollView>

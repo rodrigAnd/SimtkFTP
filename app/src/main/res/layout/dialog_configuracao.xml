@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="#088F6F6F"
+    android:layout_gravity="center"
+   style="?attr/actionBarStyle"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/primaryLightColor"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_build_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="@string/configuracao"/>
+
+    </LinearLayout>
+
+
+    <GridLayout
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:rowCount="8">
+
+        <androidx.cardview.widget.CardView
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/ed_cod_cli"
+                    android:hint="@string/cod_cli_hint"
+                    android:textColorHint="#2F7CBF"
+                    android:textStyle="bold"
+
+                    android:layout_width="match_parent"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:background="#86FFFBFB"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/ed_num_vend"
+                    android:hint="@string/numVendedor"
+                    android:textColorHint="#2F7CBF"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:background="#86FFFBFB"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+
+                <EditText
+                    android:id="@+id/ed_senha"
+                    android:hint="@string/senha_hint"
+                    android:textColorHint="#2F7CBF"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:background="#86FFFBFB"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#2F7CBF"
+                    android:textStyle="bold"
+                    android:id="@+id/btn_salvar_shared"
+                    android:background="@drawable/buttonsalvar"
+                    style="?attr/buttonBarButtonStyle"
+                    android:text="@string/salvar"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>

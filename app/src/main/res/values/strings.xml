@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SIMTK-INFORMÁTICA</string>
+    <string name="financeiro">FINANCEIRO</string>
+    <string name="estoque">ESTOQUE</string>
+
+    <!-- TODO: Remove or change
+     this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descricao">DESCRIÇÃO</string>
+    <string name="quantidade">QUANTIDADE</string>
+    <string name="valor">VALOR</string>
+    <string name="escolha_o_valor">Escolha a opção desejada e pressione CONTINUAR</string>
+    <string name="escolha_opcao">Escolha uma opção para continuar</string>
+    <string name="reposicao">Reposicao</string>
+    <string name="saidas">Saidas</string>
+    <string name="entradas">Entradas</string>
+    <string name="etiquetas">Imp etiquetas</string>
+    <string name="lista_de_precos">L. precos</string>
+    <string name="lista_de_encalhe">L. encalhe</string>
+    <string name="lista_de_validade">L. validade</string>
+    <string name="lista_para_contagem">L. contagem</string>
+    <string name="curva_abc">Curva abc</string>
+    <string name="lista_de_comissao">Lista de comissao</string>
+    <string name="mov_dia">Movimento do dia</string>
+    <string name="com_de_vendas">Comissoes vendas</string>
+    <string name="dev_fiado">Devedor fiado</string>
+    <string name="fluxo_caixa">Fluxo de caixa</string>
+    <string name="contas_pagar">Contas a pagar</string>
+    <string name="resum_ent_sai">Resumo entr/said</string>
+    <string name="resum_cart">Resumo cartao</string>
+    <string name="continuar">Continuar</string>
+    <string name="configuracoes">CONFIGURAÇÕES</string>
+    <string name="cnpj_hint">CNPJ</string>
+    <string name="arq_config">Configuração</string>
+    <string name="cod_cli_hint">CÓDIGO DO CLIENTE</string>
+    <string name="vend_hint">Vendedor</string>
+    <string name="senha_hint">SENHA</string>
+    <string name="salvar">Salvar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="menu">Configurações</string>
+    <string name="radioTodos">TODOS</string>
+    <string name="radioLaboratorio">LABORATÓRIO</string>
+    <string name="radioMedicamentos">MEDICAMENTOS</string>
+    <string name="radioPerf">PERFUMARIA</string>
+    <string name="radioDiver">DIVERSOS</string>
+    <string name="radioVarej">VAREJINHO</string>
+    <string name="numVendedor">VENDEDOR</string>
+    <string name="msgopcoes">vou receber uma mensagem</string>
+    <string name="negativo">NÃO</string>
+    <string name="positivo">SIM</string>
+    <string name="exit">CANCELAR</string>
+    <string name="sim">SIM</string>
+    <string name="nao">NÃO</string>
+    <string name="btn_opcoes">Botão com as opções</string>
+    <string name="txt_">texto botão</string>
+    <string name="considera_minimo">Considera Mínimo</string>
+    <string name="seleciona_vendedor">Seleciona Vendedor</string>
+    <string name="cod_barra_sub">Cód barra / Sub Código</string>
+    <string name="cod_barra">Cod Barra</string>
+    <string name="sub_cod">Subcódigo</string>
+    <string name="gerar_relatorio">Gerar Relatório</string>
+    <string name="configuracao">Configurações APP</string>
+    <string name="reposicaotodos">Reposição/Todos</string>
+    <string name="solicitando">Aguardando Resposta do Servidor</string>
+
+
+</resources>
